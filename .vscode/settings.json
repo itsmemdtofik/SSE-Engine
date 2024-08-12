@@ -1,0 +1,12 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "JarFiles/gson-2.8.6.jar",
+        "JarFiles/java-json.jar",
+        "JarFiles/jline-3.22.0.jar",
+        "JarFiles/json-simple-1.1.1.jar",
+        "JarFiles/junit-4.13.1.jar",
+        "JarFiles/lucene-core-8.11.2.jar",
+        "JarFiles/tika-app-2.8.0.jar"
+    ]
+}
