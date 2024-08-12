@@ -1,4 +1,4 @@
-## Symmetric Searchable Encryption (SSE)
+## Symmetric Searchable Encryption (SSE) - Engine
 
 ### What is SSE?
 
