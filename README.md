@@ -1,23 +1,34 @@
-## Symmetric Searchable Encryption (SSE) - Engine
+# Symmetric Searchable Encryption (SSE) - Engine
 
-### What is SSE?
+## What is SSE?
 
-Symmetric Searchable Encryption (SSE) is a cryptographic technique that allows a user to encrypt their data in such a way that it can still be searched efficiently. With SSE, the data owner can generate encrypted data and search queries, ensuring that both the data and the search process are protected from unauthorized access. This is particularly useful in cloud computing scenarios where sensitive data is stored on remote servers.
+Symmetric Searchable Encryption (SSE) is a cryptographic technique that enables users to encrypt their data while still allowing for efficient search capabilities. This ensures that both the data and the search process remain secure from unauthorized access. SSE is particularly useful in cloud computing scenarios, where sensitive data is stored on remote servers but needs to be searched without exposing the contents.
 
-### How SSE Works
+## How SSE Works
 
-1. **Encryption**: The data owner encrypts the data using a symmetric encryption algorithm, producing an encrypted dataset that can be securely stored on a remote server.
-2. **Search Token Generation**: When the data owner wants to perform a search, they generate a search token from their search query using the same encryption key.
-3. **Search Process**: The search token is sent to the server, which uses it to search the encrypted dataset. The server returns the encrypted results without learning anything about the actual query or the data.
+1. **Encryption**: The data owner encrypts their data using a symmetric encryption algorithm, generating an encrypted dataset that is securely stored on a remote server.
+2. **Search Token Generation**: To perform a search, the data owner generates a search token from their query using the same encryption key.
+3. **Search Process**: The server receives the search token and uses it to search through the encrypted dataset, returning encrypted results. The server learns nothing about the query or the actual data.
 4. **Decryption**: The data owner decrypts the search results using their encryption key.
 
-### Benefits of SSE
+## Benefits of SSE
 
-- **Privacy and Security**: SSE ensures that both the stored data and search queries are encrypted, protecting them from unauthorized access. The server cannot read the data or understand the search queries.
-- **Efficient Searching**: Unlike traditional encryption methods that require decrypting the entire dataset to perform a search, SSE allows for efficient searching directly on the encrypted data.
-- **Data Integrity**: SSE provides mechanisms to verify that the data has not been tampered with, ensuring the integrity of the search results.
-- **Cloud Compatibility**: SSE is particularly useful in cloud environments where data privacy and security are paramount. It allows users to leverage the benefits of cloud storage while maintaining control over their sensitive data.
+- **Privacy and Security**: Both the stored data and search queries are encrypted, preventing unauthorized access. The server is unable to read the data or discern the search queries.
+- **Efficient Searching**: Unlike traditional encryption, which requires decrypting the entire dataset to search, SSE allows efficient searching directly on encrypted data.
+- **Data Integrity**: SSE includes mechanisms to verify the integrity of the data, ensuring that the search results are untampered.
+- **Cloud Compatibility**: SSE is ideal for cloud environments, as it allows users to securely store sensitive data on cloud servers without sacrificing privacy.
 
-### Use Cases
+## Use Cases
 
-- **Secure Cloud Storage**: Store sensitive data on remote servers while retaining the ability to search the data
+- **Secure Cloud Storage**: Protecting sensitive data stored in the cloud while maintaining searchability.
+- **Medical Information**: Safeguarding sensitive medical records in hospitals.
+- **National Security**: Protecting military or police forces' classified information.
+- **Secure Cloud Computing**: Enabling private search over encrypted cloud data.
+- **Secure Outsourcing of Data Processing**: Allowing third-party processing of encrypted data without revealing sensitive information.
+- **Private Database Queries**: Performing private and secure searches on sensitive databases.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
