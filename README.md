@@ -33,6 +33,8 @@ Symmetric Searchable Encryption (SSE) is a cryptographic technique that enables 
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
+Repository link: [https://github.com/itsmemdtofik/SSE-Engine](https://github.com/itsmemdtofik/SSE-Engine)
+
 ## Contact
 
 For any inquiries or support, reach out to the project maintainer:
